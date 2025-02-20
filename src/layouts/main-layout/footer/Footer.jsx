@@ -6,16 +6,16 @@ const Footer = ({ open }) => {
       }`}
     >
       <p className="text-center sm:text-right text-gray-700 text-sm">
-        Made with <span className="text-red-500 align-middle">&#10084;</span> by{" "}
-        <a
+        Made with <span className="text-red-500 align-middle">&#10084;</span> by RetailSync{" "}
+        {/* <a
           href="https://themewagon.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-primary transition-colors"
           aria-label="Explore ThemeWagon Website"
         >
-          ThemeWagon
-        </a>
+          RetailSync
+        </a> */}
       </p>
     </footer>
   );
